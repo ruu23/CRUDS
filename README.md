@@ -41,8 +41,8 @@ Welcome to the **Product Management System**, a sleek and user-friendly applicat
 
 Get a glimpse of the Product Management System in action:
 
-![CRUDS1](cruds1.png)
-![CRUDS2](cruds2.png)
+![CRUDS1](./img/cruds1.png)
+![CRUDS2](./img/cruds2.png)
 
 ## **🤝 Contributing**
 
