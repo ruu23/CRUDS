@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cruds.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="cruds">
+
+    <!-- HEAD -->
+    <div class="head">
+      <h2>cruds</h2>
+      <p>product management system</p>
+    </div>
+
+    <!-- INPUT -->
+    <div class="inputs">
+      <input type="text" placeholder="title" id="title">
+
+      <!-- PRICE -->
+      <div class="price">
+        <input onkeyup="getTotal()" type="number" placeholder="price" id="price">
+        <input onkeyup="getTotal()" type="number" placeholder="taxes" id="taxes">
+        <input onkeyup="getTotal()" type="number" placeholder="ads" id="ads">
+        <input onkeyup="getTotal()" type="number" placeholder="discount" id="discount">
+        <small id="total"> </small>
+      </div>
+
+      <input type="number" placeholder="count number between 0 and 100" id="count">
+      <input type="text" placeholder="category" id="category">
+
+      <button id="submit">create</button>
+      
+    </div>
+    
+    <!-- OUTPUT -->
+    <div class="outputs">
+      <div class="search-block">
+        <input onkeyup="searchItem(this.value)" type="text" placeholder="search by title" id="search">
+        <div class="btn-search">
+          <button onclick="searchBy(this.id)" id="title-search">Search By Title</button>
+          <button onclick="searchBy(this.id)" id="category-search">Search By Category</button>
+        </div>
+      </div>
+      <div id="btn-delete"> </div>
+      <table>
+        <tr>
+          <th>Id</th>
+          <th>Title</th>
+          <th>Price</th>
+          <th>Taxes</th>
+          <th>Ads</th>
+          <th>Discount</th>
+          <th>Total</th>
+          
+          <th>Category</th>
+          <th>Update</th>
+          <th>Delete</th>
+        </tr>
+        <tbody id="tbody">
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+
+  <script src="cruds.js"></script>
+</body>
+</html>

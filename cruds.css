@@ -1,0 +1,117 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f4dbdb;
+  font-family: 'Poppins', sans-serif;
+}
+.cruds{
+  width: 70%;
+  margin:20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  
+}
+.head{
+  color:#cd4466;
+  text-align: center;
+  text-transform:uppercase;
+  margin: 20px 0px;
+  letter-spacing: 1px;
+  
+  padding: 20px;
+  border-radius: 10px;
+}
+input{
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f4f2ef;
+  outline: none;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+input:focus{
+  background: #ffffff;
+  transform: scale(1.03);
+}
+.price input{
+  width: 20%;
+  margin-right: 2%; 
+}
+#total{
+  margin: 10px 0;
+  padding: 8px 10px; 
+  background-color: #cd4466;
+  border-radius: 5px;
+  color: #ffffff;  
+  font-weight: bold; 
+  
+}
+#total::before{
+  content: "Total: ";
+}
+button{
+  width: 100%;
+  height: 45px;
+  border: none;
+  margin: 10px 0px;
+  background: linear-gradient(135deg, #aec297, #8ca780);
+  background-color: #e2b8b8;
+  border-radius: 25px;
+  color: #f4f2ef;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover{
+  cursor: pointer;
+  background: linear-gradient(135deg, #6f7f57, #556943);
+  letter-spacing: 2px;
+  transform: scale(1.02);
+  background-color: #d39a9a;
+}
+.btn-search{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.btn-search button{
+  width: 48%;
+}
+table{
+  width: 100%;
+  text-align: center;
+  margin: 20px 0px;
+  border-collapse: collapse ;
+  /*border: solid 1px #cd4466;*/
+  background-color: #f4f2ef;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+}
+table th{
+  text-transform: uppercase;
+  background-color:#cd4466;
+  color: #ffffff;
+  padding: 10px;
+}
+th, td{
+  padding: 5px;
+  border: solid 1px #cd4466;
+}
+table tr:nth-child(even) {
+  background-color: #f4f2ef; 
+}
+table tr:hover {
+  background-color: #e0c0c0; /* Highlight row on hover */
+}
+.cruds, input, button, #total, table, .head {
+  border-radius: 15px;
+}
