@@ -29,7 +29,7 @@ Welcome to the **Product Management System**, a sleek and user-friendly applicat
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/ruu23/CRUDS.git
+   git clone https://{token}github.com/ruu23/CRUDS.git
    ```
 2. **Open the Project:**
    - Open `cruds.html` in your preferred web browser to launch the application.
