@@ -1,3 +1,14 @@
+@media only screen and (max-width: 768px) {
+  /* Adjust the width of the cruds container */
+  .cruds {
+      width: 90%;
+  }
+
+  /* Adjust the width of the search buttons */
+  .btn-search button {
+      width: 45%;
+  }
+}
 *{
   margin: 0px;
   padding: 0px;

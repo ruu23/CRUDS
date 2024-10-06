@@ -77,9 +77,7 @@ submit.onclick = function(){
   localStorage.setItem('product', JSON.stringify(products)) //convert to json to store it
   clear();
   showData();
-  countItems(); 
-  
- 
+  countItems();  
 }
 }
 
